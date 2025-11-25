@@ -15,4 +15,5 @@ models:
   northwind:
     +materialized: table
     database: analytics
-    +schema: northwind
+  +schema: dbt_sbutello  
+
