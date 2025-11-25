@@ -1,6 +1,7 @@
-SELECT 
-    ORDERID as id,
+SELECT
+    ORDERID AS id,
     CUSTOMERID,
     EMPLOYEEID,
     ORDERDATE
-FROM raw.northwind.orders;
+FROM RAW.NORTHWIND.ORDERS;
+
