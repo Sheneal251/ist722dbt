@@ -17,3 +17,4 @@ models:
     database: analytics
   +schema: dbt_sbutello  
 
+
