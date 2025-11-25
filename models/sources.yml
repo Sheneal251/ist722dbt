@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: conformed
+    database: RAW
+    schema: CONFORMED
+
+    tables:
+      - name: DATEDIMENSION
+        columns:
+          - name: DATEKEY
+            tests:
+              - unique
+
+  - name: northwind
+    database: RAW
+    schema: NORTHWIND
+
+    tables:
+      - name: customers
+      - name: orders
+      - name: order_details
+      - name: products
+      - name: categories
+      - name: employees
+
